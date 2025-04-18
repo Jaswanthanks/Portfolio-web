@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Display</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- NAVBAR STARTING -->
+
+    <nav class="navbar bg-pink  custom-navbar" id="top-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder font-family1" href="#" id="name-logo">PORTFOLIO</a>
+          <button class="navbar-toggler " type="button" id="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="toggle-button-1"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MY DETAILS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" id="main-nav">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active font-family1" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active font-family1" aria-current="page" href="https://github.com/Jaswanthanks" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-family1" href="https://www.linkedin.com/in/jaswanthanks/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn Link
+                  </a>
+                  
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle font-family1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Additionals
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item font-family1" href="contacts.html">Contacts</a></li>
+                    <li><a class="dropdown-item font-family1" href="https://www.dropbox.com/scl/fi/7xew7olw38te2wt5cvskp/Jash-resume.pdf?rlkey=5ne5tjiehwb9zfo577pc8t1uk&st=iejkbm4a&dl=0">My Resume</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- <form class="d-flex mt-3" role="search" >
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" id="search-button">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- NAVBAR ENDING -->
+
+    <!-- PROJECT BODY STARTING -->
+    <!--CARD CHECK 1  -->
+    <div class="section-project text-center mt-5" id="Scroll-section">
+        <h2 class="mb-6 fs-8 font-family1 fw-bolder">Project Display</h2>
+      </div>
+      
+      <div class="container ">
+        <div class="row g-4">
+      
+          <!-- Jenkins Slack Card -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 img-pop-hover">
+              <img src="Slack-Logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-family1">Jenkins Automation with Slack</h5>
+                <p class="card-text fs-7 font-family1">Jenkins Automation with Slack Integration streamlines CI/CD workflows by sending real-time build and deployment notifications directly to Slack channels.</p>
+                <a href="https://github.com/Jaswanthanks/Devops_Progress_Tracker/tree/main/Jenkins/App-deployment-slack" class="btn btn-danger mt-3 btn-pop-hover">Project Explanation</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- NGINX Jenkins Card -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 img-pop-hover">
+              <img src="Jenkins Logo.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-family1">NGINX and JENKINS</h5>
+                <p class="card-text fs-7 font-family1">Static Website Deployment using NGINX and Jenkins automates the CI/CD pipeline to seamlessly build and deploy a static website.</p>
+                <a href="https://github.com/Jaswanthanks/Nginx_Jenkins" class="btn btn-danger mt-14 btn-pop-hover ">Project Explanation</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Terraform Webserver -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 img-pop-hover">
+              <img src="terraform.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-family1">Terraform Webserver</h5>
+                <p class="card-text fs-7 font-family1">This project demonstrates how to deploy a simple web server on AWS using Terraform. The web server is configured to host a basic HTML page using the Apache HTTP server.</p>
+                <a href="https://github.com/Jaswanthanks/Terraform-Webserver-creation" class="btn btn-danger mt-13 btn-pop-hover">Project Explanation</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Frontend Website Layout -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 img-pop-hover">
+              <img src="frontend-image.jpeg" class="card-img-top" id="image-frontend" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-family1">Website Layout Frontend Project</h5>
+                <p class="card-text fs-7 font-family1">Modern Webpage Layout is a responsive front-end project built using HTML, CSS, and JavaScript, designed to showcase contemporary design principles.</p>
+                <a href="https://github.com/Jaswanthanks/Modern_Webpage_Layout" class="btn btn-danger mt-3 btn-pop-hover">Project Explanation</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Terraform WebHosting Using NGINX -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 img-pop-hover">
+              <img src="nginx.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-family1">Terraform WebHosting Using NGINX</h5>
+                <p class="card-text fs-7 font-family1">Automated the provisioning of NGINX-based web hosting infrastructure on AWS using Terraform. Demonstrates Infrastructure as Code (IaC) to deploy a scalable, lightweight static web server.</p>
+                <a href="https://github.com/Jaswanthanks/Devops_Progress_Tracker/tree/main/Terraform/Terraform%20Webhosting%20Using%20NGINX" class="btn btn-danger mt-3 btn-pop-hover">Project Explanation</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Terraform VPC creation -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 img-pop-hover">
+              <img src="vpc.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-family1">Terraform VPC creation</h5>
+                <p class="card-text fs-7 font-family1">Provisioned a custom Virtual Private Cloud (VPC) on AWS using Terraform, including subnets, route tables, and internet gateways.
+                    This project demonstrates Infrastructure as Code (IaC) for building a secure and scalable network foundation in the cloud.</p>
+                <a href="https://github.com/Jaswanthanks/Devops_Progress_Tracker/tree/main/Terraform/Terraform%20Webhosting%20Using%20NGINX" class="btn btn-danger mt-3 btn-pop-hover">Project Explanation</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    <!-- FOOTER -->
+    
+    <footer class="d-flex flex-wrap justify-content-between align-items-center mt-11 py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary ">© Jaswanthan KS</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+        <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="https://www.dropbox.com/scl/fi/7xew7olw38te2wt5cvskp/Jash-resume.pdf?rlkey=5ne5tjiehwb9zfo577pc8t1uk&st=iejkbm4a&dl=0" class="nav-link px-2 text-body-secondary">Resume</a></li>
+        <li class="nav-item"><a href="contacts.html" class="nav-link px-2 text-body-secondary">Contacts</a></li>
+      </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
